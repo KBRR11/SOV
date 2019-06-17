@@ -19,7 +19,7 @@ public class Test {
 		//delete();
 	}
 	static void add() {
-		int x = pd.create(new Producto(1,"Leche Maria","123456","leche deslactosada 1lt",1.0," ",1,1));
+		int x = pd.create(new Producto(1,"Leche Maria","123456","leche deslactosada 1lt",1.0,"hola",1,1));
 		System.out.println(x);
 	}
 }

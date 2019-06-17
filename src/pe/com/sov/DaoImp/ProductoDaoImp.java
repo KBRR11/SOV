@@ -20,7 +20,7 @@ public class ProductoDaoImp implements ProductoDao {
 	@Override
 	public int create(Producto u) {
 		int x = 0;
-		String sql ="INSERT INTO producto (idproducto, nombre, producto_codigo,  precio_venta, caducidad, idcategoria, idstock) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?)";
+		String sql ="INSERT INTO producto (idproducto, nombre, producto_codigo,  precio_venta, caducidad, idcategoria, idstock) VALUES (NULL, ?, ?, ?, ?, ?, ?)";
 		try {
 			cx = Conexion.getConexion();
 			ps = cx.prepareStatement(sql);
